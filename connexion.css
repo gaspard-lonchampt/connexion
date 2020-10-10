@@ -1,0 +1,191 @@
+/* style */
+
+* {
+    box-sizing: border-box;
+    margin: 0;  
+    padding: 0;
+}
+
+html {
+width: 100%;
+height: 100%;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(media/turtle_background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+input, textarea, select, button {
+    width : 200px;
+    margin: 0;
+  
+    -webkit-box-sizing: border-box; 
+       -moz-box-sizing: border-box; 
+            box-sizing: border-box;
+}
+
+/*-------------Header---------*/
+
+header {
+    height: 20%;
+}
+
+#hd_env {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 2vh;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: transparent;
+}
+
+#hd_env:hover {
+    background-color: #7FA62D;
+}
+
+#hd_env a {
+    text-decoration: none;
+    color: white;
+}
+
+#hd_logo {
+    width: 25%;
+    text-align: right;
+}
+
+#hd_logo img {
+    width: 25%;
+    background-color: #7FA62D;
+    border-radius: 20px;
+}
+
+#titre_site {
+    width: 25%;
+    padding-left: 2%;
+}
+
+#hd_compte {
+    width: 50%;
+    text-align: center;
+    display: block;
+}
+
+/*-------------Naviguation---------*/
+
+#top_nav {
+    height: 100%;
+    width: 100%;
+}
+
+#top_nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#top_liste {
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px; 
+    align-items: center; 
+}
+
+#top_liste li {
+    padding-right: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    list-style: none
+}
+
+#top_liste a:hover {
+    color: brown;
+    border-bottom: 1px solid brown;
+}
+
+
+/* body formulaire */
+
+.core {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bouton input {
+    display: flex;
+}
+
+label {
+    display: block;
+    padding-bottom: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    color: black;
+}
+
+input {
+    display: inline-block;
+    margin-bottom: 24px;
+    border: 1px solid rgba(36,28,21,0.3);
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out 0s;
+    -webkit-appearance: none;
+}
+
+
+
+
+
+/*-------------Footer-------*/
+
+footer {
+    height: 10%;
+}
+
+.bot_sous_titre  {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;  
+    font-size: 2vh;
+    color: black;
+}
+
+#ft_pin {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+    background-color: #7FA62D;
+    opacity: 0.8;
+}
+
+#ft_pin:hover {
+    opacity: 1;
+}
+
+#ft_pin ul {
+    padding-top: 15px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;    
+} 
+
+#ft_pin a {
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+}
+
+#ft_pin li {
+    padding-top: 5px;
+}
+
+#bot_liste_3  {
+    display: flex;
+    justify-content: space-evenly;
+}
+

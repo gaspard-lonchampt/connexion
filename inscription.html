@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+    <head>
+        <title>connexion</title>
+        <meta charset="UTF-8" />
+        <script src="https://kit.fontawesome.com/6f0632ca8c.js"></script>
+        <link rel="stylesheet" href="connexion.css">
+    </head>
+
+    <body>
+        
+        <header id="header">
+            <section id="hd_env">
+                <div id="hd_logo">
+                    <a href="connexion.html" title="Soyez sympa, sauvez une tortue !">
+                    <img src="media/turtle_logo.png" alt="Soyez sympa, sauvez une tortue !" /></a>
+                </div>
+                <article id="titre_site">
+                    <a href="connexion.html" title="Soyez sympa, sauvez une tortue !">
+                    <h1 id="titre_site_texte">Soyez sympa, sauvez une tortue !</h1></a>
+                </article>
+                <nav id="top_nav">
+                    <ul id="top_liste">
+                        <li><a href="connexion.html">Accueil</a></li>
+                        <li><a href="connexion.html">Adopter une tortue</a></li>
+                        <li><a href="connexion.html">Devenir partenaire</a></li>
+                        <li><a href="connexion.html">Rechercher</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+
+    <div class="core">
+    <form method="post" action="form.php">
+
+        <div class="champ">
+          <label for="Login"></label>
+          <input type="text" id="Login" placeholder="Nom d'utilisateur" required>
+        </div>
+
+        <div class="champ">
+          <label for="pass"></label>
+          <input type="text" id="pass" placeholder="Mot de passe" required>
+        </div> 
+
+        <div class="champ">
+            <label for="pass_conf"></label>
+            <input type="text" id="pass_conf" placeholder="Confirmer votre mot de passe" required>
+        </div>
+
+        <div class="champ">
+            <label for="birth"></label>
+            <input type="text" id="birth" placeholder="Date de naissance formaté" required>
+        </div>
+
+
+        <div class="champ">
+            <label for="name"></label>
+            <input type="text" id="name" placeholder="Nom">
+        </div>
+
+        <div class="champ">
+            <label for="surname"></label>
+            <input type="text" id="surname" placeholder="Prénom">
+        </div>
+
+        <div class="champ">
+            <label for="e-mail"></label>
+            <input type="text" id="e-mail" placeholder="Courriel formaté" required>
+        </div>
+
+        <div id="sexe_div">
+            <fieldset>
+                <legend>Sexe</legend>
+                    <div>
+                        <input type="radio" id="homme" name="sexe" checked>
+                        <label for="homme">Homme</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="femme" name="sexe">
+                        <label for="femme">Femme</label>
+                    </div>
+            </fieldset>
+        </div>
+
+        <div id="selector_div">
+            <label for="qualification">Votre niveau d'étude</label>
+                <select name="qualif" id="qualification" required>
+                    <option value="">--Choisissez dans la liste--</option>
+                    <option value="bac">Baccalauréat</option>
+                    <option value="CAP">CAP/BEP</option>
+                    <option value="bac+2">BTS/DUT</option>
+                    <option value="licence">Licence</option>
+                    <option value="master">Master</option>
+                    <option value="doctorat">Docotorat</option>
+                    <option value="Sans qualifications">Sans qualification</option>
+                </select>
+        </div>
+
+        <div class="champ">
+            <label for="téléphone">Téléphone</label>
+            <input type="text" id="téléphone">
+        </div>
+        
+        <div id="presentation_div">
+            <label for="msg">Présentez vous ici</label>
+            <textarea id="msg" name="user_message" placeholder="Mettre votre description ici"></textarea>
+        </div>
+        
+        <div id="hobbies_div">
+            <fieldset>
+                <legend>Vos hobbies</legend>
+                    <div>
+                        <input type="checkbox" id="sport" name="hobbies">
+                        <label for="sport">Sport</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cinéma" name="hobbies">
+                        <label for="cinéma">Cinéma</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="musique" name="hobbies">
+                        <label for="musique">Musique</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="dessin" name="hobbies">
+                        <label for="dessin">Dessin</label>
+                    </div>
+            </fieldset>
+        </div>
+
+
+
+        
+        <div id="submit_bt">
+          <input type="submit" value="Connexion">
+      </div>
+    </form>
+    </div>
+
+
+    <footer id="footer">
+        <section id="ft_pin">
+            <article id="ft_row_apropos">
+                <h3 class="bot_sous_titre">A propos de Pinocchio</h3>
+                    <nav id="bot_nav_1">
+                        <ul id="bot_liste_1">
+                            <li><a href="@monsite">Nos Services</a></li>
+                            <li><a href="@monsite">Contactez-nous</a></li>
+                            <li><a href="@monsite">Carrières</a></li>
+                            <li><a href="@monsite">Ils parlent de nous</a></li>
+                        </ul>
+                    </nav>
+            </article>
+            <article id="ft_row_infoslegal">
+                <h3 class="bot_sous_titre">Infos Légales</h3>
+                    <nav id="bot_nav_2">
+                        <ul id="bot_liste_2">
+                            <li><a href="@monsite">Mentions légales</a></li>
+                            <li><a href="@monsite">Politique de confidentialité</a></li>
+                            <li><a href="@monsite">CGU</a></li>
+                            <li><a href="@monsite">CGV</a></li>
+                        </ul>
+                    </nav>
+            </article>
+            <article id="ft_row_socialmedia">
+                <h3 class="bot_sous_titre">Retrouvez-nous sur</h3>
+                    <nav id="bot_nav_3">
+                        <ul id="bot_liste_3">
+                            <li><a href="https://www.facebook.com/"<i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.linkedin.com/"<i class="fab fa-linkedin-in"></i></i></a></li>
+                            <li><a href="https://twitter.com/"<i class="fab fa-twitter"></i></i></a></li>
+                            <li><a href="https://www.instagram.com/"<i class="fab fa-instagram"></i></i></a></li>
+                        </ul>
+                    </nav>
+            </article>
+        </section>
+    </footer>
+</body>
+</html>

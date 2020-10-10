@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+    <head>
+        <title>connexion</title>
+        <meta charset="UTF-8" />
+        <script src="https://kit.fontawesome.com/6f0632ca8c.js"></script>
+        <link rel="stylesheet" href="connexion.css">
+    </head>
+
+    <body>  
+      <header id="header">
+        <section id="hd_env">
+            <div id="hd_logo">
+                <a href="connexion.html" title="Soyez sympa, sauvez une tortue !">
+                <img src="media/turtle_logo.png" alt="Soyez sympa, sauvez une tortue !" /></a>
+            </div>
+            <article id="titre_site">
+                <a href="connexion.html" title="Soyez sympa, sauvez une tortue !">
+                <h1 id="titre_site_texte">Soyez sympa, sauvez une tortue !</h1></a>
+            </article>
+            <nav id="top_nav">
+                <ul id="top_liste">
+                    <li><a href="connexion.html">Accueil</a></li>
+                    <li><a href="connexion.html">Adopter une tortue</a></li>
+                    <li><a href="connexion.html">Devenir partenaire</a></li>
+                    <li><a href="connexion.html">Rechercher</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <div class="core">
+    <form method="post" action="form.php">
+        <div class="champ">
+          <label class="label1" for="Login">Nom d'utilisateur</label>
+          <br>
+          <input type="text" id="Login">
+        </div>
+        <div class="champ">
+          <label class="label1" for="pass">Mot de passe</label>
+          <br>
+          <input type="password" id="pass">
+        </div> 
+        <div id="submit_bt">
+          <input type="submit" value="Connexion">
+      </div>
+    </form>
+  
+    
+    <div class="bouton">
+      <input class="compte" type="button" onclick="window.location.href = 'inscription.html'; " value="Créer un compte">
+      <input class="motdepasse" type="button" onclick="window.location.href = 'motdepasse.html';" value="Mot de passe oublié">
+    </div>
+  </div>
+      
+
+    <footer id="footer">
+      <section id="ft_pin">
+          <article id="ft_row_apropos">
+              <h3 class="bot_sous_titre">A propos de Pinocchio</h3>
+                  <nav id="bot_nav_1">
+                      <ul id="bot_liste_1">
+                          <li><a href="@monsite">Nos Services</a></li>
+                          <li><a href="@monsite">Contactez-nous</a></li>
+                          <li><a href="@monsite">Carrières</a></li>
+                          <li><a href="@monsite">Ils parlent de nous</a></li>
+                      </ul>
+                  </nav>
+          </article>
+          <article id="ft_row_infoslegal">
+              <h3 class="bot_sous_titre">Infos Légales</h3>
+                  <nav id="bot_nav_2">
+                      <ul id="bot_liste_2">
+                          <li><a href="@monsite">Mentions légales</a></li>
+                          <li><a href="@monsite">Politique de confidentialité</a></li>
+                          <li><a href="@monsite">CGU</a></li>
+                          <li><a href="@monsite">CGV</a></li>
+                      </ul>
+                  </nav>
+          </article>
+          <article id="ft_row_socialmedia">
+              <h3 class="bot_sous_titre">Retrouvez-nous sur</h3>
+                  <nav id="bot_nav_3">
+                      <ul id="bot_liste_3">
+                          <li><a href="https://www.facebook.com/"<i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="https://www.linkedin.com/"<i class="fab fa-linkedin-in"></i></i></a></li>
+                          <li><a href="https://twitter.com/"<i class="fab fa-twitter"></i></i></a></li>
+                          <li><a href="https://www.instagram.com/"<i class="fab fa-instagram"></i></i></a></li>
+                      </ul>
+                  </nav>
+          </article>
+      </section>
+  </footer>
+  </body>
+          
